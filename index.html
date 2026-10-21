@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warren Woodhouse on GitHub</title>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #ff0000;
+      --accent: #ff0000;
+      --text: #000000;
+      --muted: #cd0000;
+      --border: #ff0000;
+      --terminal: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 600px at top, #ff0000, var(--bg));
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Arial", monospace;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 64px 24px;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 64px;
+    }
+
+    .hero-left {
+      text-align: center;
+    }
+
+    .hero-left img {
+      width: 140px;
+      height: 140px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      object-fit: cover;
+      box-shadow: 0 0 30px var(--border);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .subtitle {
+      color: #000000;
+      font-size: 1.1rem;
+      margin-top: 6px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 12px;
+      border: 1px solid #ff0000;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #ff0000;
+      background-color: #ffffff;
+    }
+
+    /* ---------- SECTIONS ---------- */
+    section {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      border-left: 3px solid var(--border);
+      padding-left: 12px;
+    }
+
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* ---------- TERMINAL ---------- */
+    .terminal {
+      background: var(--terminal);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      font-family: "Arial Black", monospace;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
+    }
+
+    .terminal pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #000000;
+    }
+
+    .prompt {
+      color: var(--accent);
+    }
+
+    .cmd {
+      color: #ff0000;
+    }
+
+    .output {
+      color: #ff0000;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-left">
+        <img src="https://raw.githubusercontent.com/warrenwoodhouse/warrenwoodhouse.github.io/refs/heads/main/IMG_3975.png" alt="avatar" />
+        </div>
+      </div>
+
+      <div>
+        <h1>Welcome to The Warren Zone!</h1>
+        <span class="badge">Gamer / Cartographer / Photographer</span>
+      </div>
+    </div>
+
+    <!-- TERMINAL SECTION -->
+    <section class="terminal">
+      <pre>
+<span class="prompt">warrenwoodhouse.github.io/about/</span>:~$ <span class="cmd">ABITABOUTME.md</span>
+<span class="output">Gamer and Poultry farmer with a penchant for 70s music and maps.</span>
+
+<span class="prompt">warrenwoodhouse.github.io/about/</span>:~$ <span class="cmd">MYSKILLS.md</span>
+<span class="output">- Leaflet scripting
+- Web Designing
+- Blogging
+- Gaming
+- JavaScript
+- Proficient in Archery
+- Proficient in the use of Crossbows
+- Photography
+- Cartography
+- Scouting</span>
+
+<span class="prompt">warrenwoodhouse.github.io/about/</span>:~$ <span class="cmd">MYQUALIFICATIONS.md</span>
+<span class="output">- NVQ1 in Basic First Aid Training
+- BTEC in Basic Cooking
+- BTEC in Media Developments
+- GCSE in Maths, English & Social Studies
+- GCSE in Home Economics & ICT
+- GCSE in Wood Tech, Textiles, Art, Music & CAD Design and CAM Design
+- BTEC in Photography</span>
+      </pre>
+    </section>
+
+    <!-- ABOUT -->
+    <section>
+      <h2>About</h2>
+      <p>
+        I have AuADHD. I love taking photos, playing games, making
+        maps, listening to 70s music (mixed amount of Motown and Northern Soul)
+        and making widgets for websites.
+      </p>
+
+## 🛠 Skills & Tools
+
+<p align="center" style="display:flex; flex-wrap:wrap; gap:8px;">
+  <ul>
+    <li>Python</li>
+    <li>REST</li>
+    <li>JavaScript</li>
+    <li>YaBASIC</li>
+    <li>Leaflet</li>
+  </ul>
+</p>
+
+
+
+
+
+
+      
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <h2>Projects</h2>
+      <p>
+        Scripts, tools, and experiments are available on my
+        <a href="https://github.com/warrenwoodhouse">GitHub profile</a>.
+      </p>
+    </section>
+
+    <footer>
+      © <script>document.write(new Date().getFullYear())</script> <a href="https://warrenwoodhouse.blogspot.com/">Warren Woodhouse</a>.
+    </footer>
+
+  </div>
+</body>
+</html>
