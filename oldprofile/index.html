@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>warrenwoodhouse (Warren Woodhouse)</title>
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #ff0000;
+      --accent: #ff0000;
+      --text: #000000;
+      --muted: #cd0000;
+      --border: #ff0000;
+      --terminal: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 600px at top, #ff0000, var(--bg));
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Arial", monospace;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 64px 24px;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 64px;
+    }
+
+    .hero-left {
+      text-align: center;
+    }
+
+    .hero-left img {
+      width: 140px;
+      height: 140px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      object-fit: cover;
+      box-shadow: 0 0 30px var(--border);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .subtitle {
+      color: #000000;
+      font-size: 1.1rem;
+      margin-top: 6px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 12px;
+      border: 1px solid #ff0000;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #ff0000;
+      background-color: #ffffff;
+    }
+
+    .social {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 12px;
+      border: 1px transparent;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #ff0000;
+      background-color: #ffffff;
+    }
+
+    .rss {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 12px;
+      border: 1px solid #ff0000;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: #ff0000;
+      background-color: #ffffff;
+    }
+
+    /* ---------- SECTIONS ---------- */
+    section {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      border-left: 3px solid var(--border);
+      padding-left: 12px;
+    }
+
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+
+    a {
+      color: var(--accent);
+      text-decoration:none;
+    }
+    
+    a:link {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* ---------- TERMINAL ---------- */
+    .terminal {
+      background: var(--terminal);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      font-family: "Arial Black", monospace;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
+    }
+
+    .terminal pre {
+      margin: 0;
+      white-space: pre-wrap;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #000000;
+    }
+
+    .prompt {
+      color: var(--accent);
+    }
+
+    .cmd {
+      color: #ff0000;
+    }
+
+    .output {
+      color: #000000;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>  
+    <div class="container">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-left">
+        <img src="https://raw.githubusercontent.com/warrenwoodhouse/warrenwoodhouse.github.io/refs/heads/main/IMG_3975.png" alt="avatar" />
+        </div>
+      </div>
+
+      <div>
+        <h1>warrenwoodhouse (Warren Woodhouse)</h1>
+        <span class="badge">Gamer / Cartographer / Photographer / Chicken & Duck Farmer</span>
+        <span class="badge">I have #Autism, I have a rare heart condition & I enjoy playing on games, playing on my guitar, watching films & taking photos. 😀</span>
+        <span class="badge"><a href="https://warrenwoodhouse.blogspot.com/contact">Contact Me</a> | <a href="https://youtube.com/user/warrenwoodhouse">YouTube</a> | <a href="https://warrenwoodhouse.blogspot.com/">Blog</a> | <a href="https://truetrophies.com/gamer/warren-woodhouse">TrueTrophies</a> | <a href="https://fontmeme.com/fonts/aenigmate-productions-listing">FontMeme</a> | <a href="https://warrenwoodhouse.blogspot.com/artwork">Artwork</a> | <a href="https://warrenwoodhouse.blogspot.com/music">Music</a> | <a href="https://warrenwoodhouse.blogspot.com/photos">Photos</a></span>
+      </div>
+    </div>
+
+    <!-- TERMINAL SECTION -->
+    <section class="terminal">
+      <pre>
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">overview</span>
+<span class="output">Hello! My name is Warren Woodhouse and welcome to my GitHub profile. I'm a Gamer and a poultry farmer with a penchant for 70s music and maps. For more information about me please <a href="https://warrenwoodhouse.blogspot.com/p/about.html">CLICK HERE</a>.</span>
+<span class="output"><a href="https://github.com/warrenwoodhouse/warrenwoodhouse/blob/master/RELEASE-NOTES.md">CLICK HERE</a> to read the Release Notes/Changelog for my GitHub.</span>
+
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">about</span>
+<span class="output">I have Autism. I enjoy playing on video games, playing on my guitar, playing on my piano, watching films, reading books & taking photos.</span>
+
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">creations</span>
+<span class="output">- <a href="https://warrenwoodhouse.github.io/maps">Warren Maps</a>
+- <a href="https://warrenwoodhouse.github.io/amazonsilkforleaflet">Amazon Silk Plugin for Leaflet</a>
+- <a href="https://warrenwoodhouse.github.io/poppy">Poppy Appeal Widget</a>
+- <a href="https://warrenwoodhouse.github.io/githubcommits">GitHub Commits Feed Widget Generator</a>
+- <a href="https://warrenwoodhouse.github.io/translate/albhed">Al Bhed Translator & Dictionary</a>
+- <a href="https://github.com/warrenwoodhouse/gta3/releases/tag/newcastleupontyneuknexusmetrotexturepack">Newcastle upon Tyne UK's Nexus Metro Texture Pack for Grand Theft Auto III</a>
+- <a href="https://github.com/warrenwoodhouse/simcity3000/releases/tag/v1">SimCity 3000 Mods</a>
+- <a href="https://warrenwoodhouse.github.io/maps/editor">MapThis!</a>
+- <a href="https://warrenwoodhouse.github.io/maps/editor/wiki">MapThis! for MediaWiki</a>
+- <a href="https://warrenwoodhouse.github.io/notes">Warren Notes</a>
+- <a href="https://github.com/warrenwoodhouse/pingstr">PiNgStR</a>
+- <a href="https://warrenwoodhouse.github.io/feedmaker">FeedMaker</a>
+- <a href="https://warrenwoodhouse.github.io/bloggertemplates">Blogger Templates</a>
+- <a href="https://warrenwoodhouse.github.io/wordpressthemes">WordPress Themes</a>
+- <a href="https://warrenwoodhouse.github.io/tumblrthemes">Tumblr Themes</a>
+- <a href="https://warrenwoodhouse.blogspot.com/search/label/gmailthemes">Google Mail Themes</a>
+- <a href="https://warrenwoodhouse.github.io/gamingtelephonedirectory">Gaming Telephone Directory</a>
+- <a href="https://warrenwoodhouse.github.io/colourchart">Hexadecimal Colour Chart</a>
+- <a href="https://warrenwoodhouse.github.io/audioplayers">Audio Player Widgets</a>
+- <a href="https://warrenwoodhouse.github.io/clocks">Clock Widgets</a>
+- <a href="https://github.com/warrenwoodhouse/favicons">Favicons</a>
+- <a href="https://github.com/warrenwoodhouse/cursors">Cursors</a>
+- <a href="https://github.com/warrenwoodhouse/fonts">Fonts</a>
+- <a href="https://github.com/warrenwoodhouse/checklist">Autosave Checklist</a>
+- <a href="https://github.com/warrenwoodhouse/flags">Flags</a>
+- <a href="https://warrenwoodhouse.github.io/calculator">Calculator</a>
+- <a href="https://youtube.com/user/warrenwoodhouse/podcasts">Podcasts</a>
+- <a href="https://giphy.com/warrenwoodhouse">GIFs</a>
+</span>
+
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">games</span>
+<span class="output"><div id="games"></div>- <a href="https://warrenwoodhouse.github.io/games/fartinajar">#FIAJ Fart in a Jar</a>
+- <a href="https://warrenwoodhouse.github.io/games/darknessinroom943">Darkness in Room 943</a> (work in progress)
+- <a href="https://warrenwoodhouse.github.io/games/draughts">Advanced Draughts (Checkers)</a>
+- <a href="https://warrenwoodhouse.github.io/games/pong">Advanced Pong</a>
+- <a href="https://warrenwoodhouse.github.io/games/simplifiedcaravan">Simplified Caravan</a>
+</span>
+        
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">skills</span>
+<span class="output">- Leaflet maps and scripts
+- Web Designing
+- Blogging
+- Gaming
+- JavaScript
+- Proficient in Archery
+- Proficient in the use of Crossbows
+- Photography
+- Cartography
+- Scouting</span>
+
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">qualifications</span>
+<span class="output">- NVQ1 in Basic First Aid Training
+- BTEC in Basic Cooking
+- BTEC in Media Developments
+- GCSE in Maths, English & Social Studies
+- GCSE in Home Economics & ICT
+- GCSE in Wood Tech, Textiles, Art, Music & CAD Design and CAM Design
+- BTEC in Photography</span>
+
+<span class="prompt">warrenwoodhouse.github.io</span>:~$ <span class="cmd">community</span>
+<span class="output"><a href="https://github.com/warrenwoodhouse/forums/issues">CLICK HERE</a> to join the community to discuss, contribute and share ideas regarding my products.</span>
+      </pre>
+    </section>
+
+    <footer>
+      &copy;2001-<script>document.write(new Date().getFullYear())</script> <a href="https://warrenwoodhouse.blogspot.com/">Warren Woodhouse</a>.
+      Uses the <a href="https://github.com/warrenwoodhouse/themes">Warren Woodhouse GitHub Pages Theme</a>.
+    </footer>
+
+  </div>
+</body>
+</html>
